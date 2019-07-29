@@ -1,6 +1,14 @@
+/**
+ * CPSC 110
+ * Mar 13, 2017
+ * I pledge
+ * @author gjfoster2.adm
+ */
+package project2;
 
-package project.old;
-
+/**
+ *
+ */
 public class BlackjackRules {
 
 	/**
@@ -38,6 +46,7 @@ public class BlackjackRules {
 	 * @return the number of points that card is worth, where Aces are always considered to be 11 points
 	 */
 	public static int getCardPoints(String card) {
+
 		int points = 0;
 		switch (card) {
 		case "A":
